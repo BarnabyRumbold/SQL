@@ -1,3 +1,4 @@
+## Encryption in SQL ##
 /*this is happening automatically first on master database*/
 CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'utopiadiTopia123!';
 
