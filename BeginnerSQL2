@@ -1,0 +1,6 @@
+## Creating a CosmosDB database ##
+
+git clone https://github.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals dp-900
+cd dp-900/nosql
+bash setup.sh
+
