@@ -22,7 +22,7 @@ END AS 'CompletedActivityType'
 FROM [Table] POD
 
 -- Join for Provider Code
-JOIN [LOOKUPS].[ODS].[All_Providers_SCD] PRO
+JOIN [Table] PRO
 ON PRO.Organisation_Code = LEFT(POD.ProviderCode, 3)
 
 WHERE 1=1 
